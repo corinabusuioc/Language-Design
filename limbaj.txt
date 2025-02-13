@@ -1,0 +1,70 @@
+class integer { 
+    float mat[50][50];
+    int y;
+}
+class animal {
+    int age;
+    float speed;
+    int fast(int speed)
+    {
+        print(speed < 5);
+    }
+}
+int x = 2;
+int v[10];
+int functie(int x, animal a, float m, bool b[5][5])
+{
+    int i;
+    print ("in functie");
+}
+void main()
+{
+    print (7.5 + 2.6543);
+    integer pui;
+    int y = x + 6;
+    float fl = 3.24;
+    string str = "text%";
+    bool ok = True;
+    char i = '.';
+    print ('?');
+    char c;
+    print (4 > 3);
+    print (ok);
+    animal a;
+    a.age = 10;
+    a.fast();
+    typeof (x);
+    bool b[10][10];
+    int zz;
+    int z = 1 + v[1];
+    int ix = 10;
+    ix = ix + (ix + ix*4) * 2;
+    print (ix);
+    functie(5, a, 5.5 + 1.2 , b);
+    while x > y || ! x == 2 && x + 2 < y + 6:
+    begin
+        int z = x + x;
+        y = x;
+        print (y);
+        x = x * x;
+        print (5);
+        print (5 * 5 >= 30 - 5);
+        typeof (5 * 5 >= 30 - 5);
+    end
+    print (10);
+    print (!true);
+    print (20 * 5 + 10 / 5);
+    for x = 1 ; x < 10 ; x = x + 1
+    begin
+        char a = '1';
+        print (x);
+    end
+    int pula;
+    int pl;
+    if x < 2:
+    begin
+        int y = 7;
+    end
+    print (1 + 2 * 7 - 5);
+    print (1 >= 1 + 3);
+}
